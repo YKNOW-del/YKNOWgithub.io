@@ -1,0 +1,94 @@
+/* 重置浏览器默认样式 */
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置整体字体和背景 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+.header {
+    background-color: #004D83; /* 深蓝色 */
+    color: #FFD700; /* 金色 */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* 导航菜单样式 */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 内容区域样式 */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 标题和段落样式 */
+h2 {
+    color: #004D83;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* 底部样式 */
+.footer {
+    background-color: #004D83;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 响应式布局调整 */
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

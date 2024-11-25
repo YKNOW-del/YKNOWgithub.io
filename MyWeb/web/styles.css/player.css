@@ -1,0 +1,126 @@
+/* 重置浏览器默认样式 */
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置整体字体和背景 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* 头部样式 */
+.header {
+    background-color: #004D83; /* 深蓝色 */
+    color: #FFD700; /* 金色 */
+    padding: 10px 0;
+    text-align: center;
+	width:100%;
+}
+
+.logo img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* 导航菜单样式 */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+/* 内容区域样式 */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 球员列表样式 */
+strong{
+    color: #004D83;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.player-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.player-list th, .player-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.player-list th {
+    background-color: #004D83;
+    color: #FFD700;
+}
+
+/* 球员照片样式 */
+.player-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.player-photo img {
+    width: 100%;
+    height: auto;
+}
+
+/* 底部样式 */
+.footer {
+    background-color: #004D83;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 响应式布局调整 */
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .player-list, .player-photo {
+        display: block;
+        margin: 0 auto;
+    }
+}

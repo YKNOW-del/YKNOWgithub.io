@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.layout {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header {
+    background: #004D83; /* 深蓝色 */
+    color: #FFD700; /* 金色 */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #C0C0C0;
+}
+
+.home-section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    color: #FFD800;
+}
+
+footer {
+    background: #004D83;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: -888px;
+    width: 100%;
+    left: -98px;
+}
